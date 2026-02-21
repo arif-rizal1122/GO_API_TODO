@@ -1,0 +1,24 @@
+{
+    "dbcode.connections": [
+        {
+            "connectionId": "NbSk0rcymH5C8-o7Agq7v",
+            "name": "Go_api",
+            "driver": "postgres",
+            "color": "#FF642F",
+            "connectionType": "host",
+            "host": "localhost",
+            "port": 8080,
+            "ssl": false,
+            "authMethod": "password",
+            "username": "arif_rizal",
+            "password": "",
+            "savePassword": "secretStorage",
+            "database": "Go_apis",
+            "readOnly": true,
+            "role": "testing",
+            "postConnectionSqlType": "inline",
+            "connectionTimeout": 30,
+            "pinnedConnectionTimeout": "0"
+        }
+    ]
+}
