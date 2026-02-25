@@ -3,6 +3,7 @@ package main
 import (
 	"Go_REST_API/internal/config"
 	"Go_REST_API/internal/database"
+	"Go_REST_API/internal/handlers"
 	"log"
 
 	"github.com/gin-gonic/gin"
@@ -44,6 +45,8 @@ func main() {
 		})
 
 	})
+
+	router.POST("/todos", handlers.CreateTodohandler(pool))
 	
 	router.Run(":" + cfg.Port)
 
