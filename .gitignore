@@ -1,0 +1,13 @@
+# Binaries
+/tmp/
+/cmd/api/tmp/
+main
+
+# Environment variables
+.env
+
+# Go dependencies
+vendor/
+
+# VS Code
+.vscode/
